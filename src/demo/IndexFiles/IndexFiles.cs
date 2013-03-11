@@ -42,6 +42,8 @@ namespace Lucene.Net.Demo
 				Environment.Exit(1);
 			}
 
+            // this was done in github
+
             bool bFileExists = File.Exists(INDEX_DIR.FullName);
             bool bDirectoryExists = Directory.Exists(INDEX_DIR.FullName);
 
