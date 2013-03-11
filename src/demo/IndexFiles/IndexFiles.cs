@@ -55,7 +55,7 @@ namespace Lucene.Net.Demo
 			}
 
             // creating the second conflict (Plastic)
-
+            // creating the second conflict (Git)
             var docDir = new DirectoryInfo(args[0]);
 		    var docDirExists = File.Exists(docDir.FullName) || Directory.Exists(docDir.FullName);
 			if (!docDirExists) // || !docDir.canRead()) // {{Aroush}} what is canRead() in C#?
