@@ -45,6 +45,8 @@ namespace Lucene.Net.Demo
             bool bFileExists = File.Exists(INDEX_DIR.FullName);
             bool bDirectoryExists = Directory.Exists(INDEX_DIR.FullName);
 
+            // creating my first conflict (this code is from GitHub)
+
 			if (bFileExists || bDirectoryExists)
 			{
 				Console.Out.WriteLine("Cannot save index to '" + INDEX_DIR + "' directory, please delete it first");
